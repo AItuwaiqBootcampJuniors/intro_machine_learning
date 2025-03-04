@@ -151,57 +151,6 @@ The following are the tools that are covered in the notebooks. They are popular 
 * [Neural Networks for Classification with TensorFlow](https://github.com/Nyandwi/machine_learning_complete/blob/main/7_intro_to_artificial%20_neural_networks_and_tensorflow/4_neural_networks_for_classification_with_tensorflow.ipynb)
 
 
-### 8 - Deep Computer Vision with TensorFlow
- 
-* [Intro to Computer Vision with Convolutional Neural Networks(CNN)](https://github.com/Nyandwi/machine_learning_complete/blob/main/8_deep_computer_vision%20with_tensorflow/1_intro_to_computer_vision_and_cnn.ipynb)
-
-    * Intro to Computer Vision and CNNs
-       * What is Convolutional Neural Networks?
-       * A Typical Architecture of Convolutional Neural Networks
-    * Coding ConvNets: Image Classification
-    
-* [ConvNets for Real World Data and Image Augmentation](https://github.com/Nyandwi/machine_learning_complete/blob/main/8_deep_computer_vision%20with_tensorflow/2_cnn_for_real_world_data_and_image_augmentation.ipynb)
-
-    * Intro - Real World Datasets and Data Augmentation
-    * Getting Started: Real World Datasets and Overfitting
-    * Image Augmentation with Keras Image Augmentation Layers
-* [CNN Architectures and Transfer Learning](https://github.com/Nyandwi/machine_learning_complete/blob/main/8_deep_computer_vision%20with_tensorflow/3_cnn_architectures_and_transfer_learning.ipynb)
-
-    * Looking Back: A Review on State of the Art CNN Architectures
-    * Intro to Transfer Learning and using Pretrained Models
-    * Quick Image Classification with Pretrained Models
-    * Transfer Learning and FineTuning in Practice
-    * Quick Image Classification and Transfer Learning with TensorFlow Hub
-
-### 9 - Natural Language Processing with TensorFlow
-
-* [Intro to NLP and Text Processing with TensorFlow](https://github.com/Nyandwi/machine_learning_complete/blob/main/9_nlp_with_tensorflow/1_intro_to_nlp_and_text_preprocessing.ipynb)
-
-    * Intro to Natural Language Processing
-    * Text Processing with TensorFlow
-    * Using TextVectorization Layer
-* [Using Word Embeddings to Represent Texts](https://github.com/Nyandwi/machine_learning_complete/blob/main/9_nlp_with_tensorflow/2_using_word_embeddings_to_represent_texts.ipynb)
-
-    * Intro to Word Embeddings
-    * Embedding In Practice
-    * Using Pretrained Embeddings
-* [Recurrent Neural Networks (RNNs)](https://github.com/Nyandwi/machine_learning_complete/blob/main/9_nlp_with_tensorflow/3_recurrent_neural_networks.ipynb)
-
-    * Intro to Recurrent Neural Networks
-    * Simple RNNs In Practice: Movies Sentiment Analysis
-    * Intro to Long Short Terms Memories
-    * LSTMs in Practice : News Classification
-    
-* [Using Convolutional Neural Networks for Texts Classification](https://github.com/Nyandwi/machine_learning_complete/blob/main/9_nlp_with_tensorflow/4_using_cnns_and_rnns_for_texts_classification.ipynb)
-
-    * Intro Convolutional Neural Networks for Texts
-    * CNN for Texts in Practice: News Classification
-    * Combining ConvNets and RNNs
-    
-* [Using Pretrained BERT for Text Classification](https://github.com/Nyandwi/machine_learning_complete/blob/main/9_nlp_with_tensorflow/5_using_pretrained_bert_for_text_classification.ipynb)
-
-    * Intro to BERT
-    * In Practice: Finetuning a Pretrained BERT
 
 ## Used Datasets
 
@@ -211,7 +160,7 @@ Many of the datasets used for this repository are from the following sources:
 * [Seaborn Datasets](https://github.com/mwaskom/seaborn-data)
 * [Scikit-Learn datasets](https://scikit-learn.org/stable/datasets.html)
 * [Kaggle](https://www.kaggle.com/datasets)
-* [TensorFlow datasets](https://www.tensorflow.org/datasets/catalog/overview)
+
 
 
 ## Further Resources
@@ -221,21 +170,6 @@ Machine Learning community is very vibrant. There are many faboulous learning re
 ### Courses
 
 * **Machine Learning by Coursera**: This course was tought by Andrew Ng. It is one of the most popular machine learning courses, it has been taken by over 4M of people. The course focuses more about the fundamentals of machine learning techniques and algorithms. It is free on [Coursera](https://www.coursera.org/learn/machine-learning). 
-
-* **Deep Learning Specialization**: Also tought by Andrew Ng., Deep Learning Specialization is also a foundations based course. It teaches a decent foundations of major deep learning architectures such as convolutional neural networks and recurrent neural networks. The full course can be [audited on Coursera](https://www.coursera.org/specializations/deep-learning), or watch freely on [Youtube](https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0).
-
-* **MIT Intro to Deep Learning**: This course provide the foundations of deep learning in resonably short period of time. Each lecture is one hour or less, but the materials are still the best in classs. Check the course page [here](http://introtodeeplearning.com), and lecture videos [here](https://www.youtube.com/watch?v=AjtX1N_VT9E&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=4).
-
-* **CS231N: Convolutional Neural Networks for Visual Recognition by Stanford**: CS231N is one of the best deep learning and computer vision courses. The 2017 version was taught by Fei-Fei Li, Justin Johnson and Serena Yeung. The [2016 version](http://cs231n.stanford.edu/2016/) was taught by Fei-Fei, Johnson and Andrej Karpathy. See 2017 lecture videos [here](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLzUTmXVwsnXod6WNdg57Yc3zFx_f-RYsq&index=1&t=457s), and other materials [here](http://cs231n.stanford.edu). 
-
-* **Practical Deep Learning for Coders by fast.ai**: This is also an intensive deep learning course that cover the whole spectrum of deep learning architectures and techniques. The [lecture videos](https://course.fast.ai/videos/?lesson=1) and other resources such as [notebooks](https://github.com/fastai/fastbook) are the [course page](https://course.fast.ai). 
-
-
-* **Full Stack Deep Learning**: While the majority of machine learning courses focuses on modelling, this course focuses on shipping machine learning systems. It teaches how to design machine learning projects, data management(storage, access, processing, versioning, and labeling), training, debugging, and deploying machine learning models. See 2021 version [here](https://fullstackdeeplearning.com/spring2021/) and 2019 [here](https://fall2019.fullstackdeeplearning.com). You can also skim through the [project showcases](https://fullstackdeeplearning.com/spring2021/projects/) to see the kind of the courses outcomes through learners projects. 
-
-* **NYU Deep Learning Spring 2021**: Taught at NYU by Yann LeCun, Alfredo Canziani, this course is one of the most creative courses out there. The materials are presented in amazing way. Check the lecture videos [here](https://www.youtube.com/playlist?list=PLLHTzKZzVU9e6xUfG10TkTWApKSZCzuBI), and the course repo [here](https://github.com/Atcold/NYU-DLSP21). 
-
-* **CS224N: Natural Language Processing with Deep Learning by Stanford**: If you are interested in Natural Language Processing, this is a great course to take. It is taught by Christopher Manning, one of the world class NLP stars. See the lecture videos [here](https://www.youtube.com/playlist?list=PLU40WL8Ol94IJzQtileLTqGZuXtGlLMP_). 
 
 ### Books
 
